@@ -85,5 +85,8 @@ debug.renderengine.backend=skiaglthreaded
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8475
 
+# Performance
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # USB
 vendor.usb.product_string=Zenfone 9
