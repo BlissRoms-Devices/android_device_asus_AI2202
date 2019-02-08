@@ -1,3 +1,6 @@
+# Display
+debug.sf.enable_hwc_vds=1
+
 # DPM
 persist.vendor.dpm.feature=11
 
