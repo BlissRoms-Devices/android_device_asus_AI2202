@@ -184,15 +184,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
-# Prebuilt Kernel Binary
+# Kernel
 TARGET_KERNEL_VERSION := 5.10
 TARGET_KERNEL_DIR ?= device/asus/AI2202-kernel
+TARGET_BOARD_KERNEL_HEADERS ?= device/asus/AI2202-kernel/kernel-headers
 LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
-
-# Prebuilt Kernel Headers
-TARGET_BOARD_KERNEL_HEADERS ?= device/asus/AI2202-kernel/kernel-headers
 
 # Keymaster
 PRODUCT_COPY_FILES += \
