@@ -49,6 +49,16 @@ while [ "${#}" -gt 0 ]; do
     shift
 done
 
+function blob_fixup() {
+    case "${1}" in
+    	# Use VNDK 32 libhidlbase
+    	vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so)
+            "${PATCHELF_0_8}" --remove-needed "libhidlbase.so" "${2}"
+            sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
+	   ;;
+    esac
+}
+
 if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
