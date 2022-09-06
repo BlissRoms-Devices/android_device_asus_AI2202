@@ -306,6 +306,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    CarrierConfigResZenfone9 \
     FrameworksResTarget_Vendor \
     WifiResTarget_cape \
     WifiResTarget_spf \
