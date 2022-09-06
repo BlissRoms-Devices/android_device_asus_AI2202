@@ -308,6 +308,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResZenfone9 \
     FrameworksResTarget_Vendor \
+    FrameworksResCommon_Sys \
+    TelephonyResCommon_Sys \
     WifiResTarget_cape \
     WifiResTarget_spf \
     Zenfone9Frameworks \
