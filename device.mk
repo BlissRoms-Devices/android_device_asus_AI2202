@@ -305,6 +305,13 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    FrameworksResTarget_Vendor \
+    WifiResTarget_cape \
+    WifiResTarget_spf \
+    Zenfone9Frameworks \
+    Zenfone9SettingsProvider
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
