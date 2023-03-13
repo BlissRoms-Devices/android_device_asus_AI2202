@@ -22,6 +22,9 @@ AB_OTA_PARTITIONS := \
     vendor_dlkm \
     vendor
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a-branchprot
