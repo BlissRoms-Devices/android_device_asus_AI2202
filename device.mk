@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# Fastboot
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
