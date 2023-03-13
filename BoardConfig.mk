@@ -98,5 +98,8 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := taro
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Inherit the proprietary files
 include vendor/asus/AI2202/BoardConfigVendor.mk
