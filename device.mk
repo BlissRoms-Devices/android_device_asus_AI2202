@@ -71,6 +71,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
+# Prebuilt Kernel Binary
+TARGET_KERNEL_VERSION := 5.10
+TARGET_KERNEL_DIR ?= device/asus/AI2202-kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
+# Prebuilt Kernel Headers
+TARGET_BOARD_KERNEL_HEADERS ?= device/asus/AI2202-kernel/kernel-headers
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
