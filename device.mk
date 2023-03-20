@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# ATrace
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
 # Audio
 $(call soong_config_set,android_hardware_audio,run_64bit,true)
 # Pick up split makefile
