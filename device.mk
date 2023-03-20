@@ -211,6 +211,12 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-V1-ndk_platform.vendor \
     libkeymaster_messages.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.lights.service \
+    libtinyxml \
+    lights.qcom
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
