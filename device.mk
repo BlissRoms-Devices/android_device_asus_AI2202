@@ -117,6 +117,9 @@ PRODUCT_PACKAGES += \
 
 # Data
 PRODUCT_PACKAGES += \
+    IPACM_cfg.xml \
+    ipacm \
+    IPACM_Filter_cfg.xml \
     librmnetctl
 
 # Dalvik
