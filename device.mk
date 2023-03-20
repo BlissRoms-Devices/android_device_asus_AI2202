@@ -214,6 +214,22 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
+PRODUCT_PACKAGES += \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxCore \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
+    libgui_vendor \
+    libmm-omxcore \
+    libplatformconfig \
+    libstagefright_softomx.vendor \
+    libstagefrighthw \
+
 # Networking
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
