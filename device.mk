@@ -192,6 +192,9 @@ PRODUCT_COPY_FILES += \
 TARGET_BOARD_KERNEL_HEADERS ?= device/asus/AI2202-kernel/kernel-headers
 
 # Keymaster
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml
+
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
