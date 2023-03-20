@@ -58,6 +58,8 @@ TARGET_NO_BOOTLOADER := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+SOONG_CONFIG_qtidisplay_displayconfig_enabled := true
+SOONG_CONFIG_qtidisplaycommonsys_displayconfig_enabled := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
