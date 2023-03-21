@@ -184,10 +184,35 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    init.target.rc \
+    init.recovery.qcom.rc \
+    init.qcom.rc \
+    init.qti.ufs.rc \
+    init.qti.kernel.rc \
+    ssgqmigd.rc \
+    ueventd.qcom.rc
+
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.crda.sh \
+    init.kernel.post_boot.sh \
+    init.kernel.post_boot-cape.sh \
+    init.kernel.post_boot-diwali.sh \
+    init.kernel.post_boot-taro.sh \
+    init.mdm.sh \
+    init.qcom.class_core.sh \
+    init.qcom.coex.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sdio.sh \
+    init.qcom.sh \
+    init.qti.kernel.sh \
+    vendor_modprobe.sh
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
+    $(LOCAL_PATH)/init/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
 # Kernel
 TARGET_KERNEL_VERSION := 5.10
