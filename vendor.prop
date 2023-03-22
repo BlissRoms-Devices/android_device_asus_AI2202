@@ -25,3 +25,6 @@ persist.vendor.qcom.bluetooth.aptxadaptiver2_2_support=true
 persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.csip_qti=true
+
+# Camera
+ro.camera.enableCamera1MaxZsl=1
