@@ -1,0 +1,31 @@
+#
+# Copyright (C) 2023 The BlissRoms Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on fs
+
+    # Initialize "Proximity/Light sensor"
+    chown system shell /sys/class/sensors/psensor/switch
+    chown system shell /sys/class/sensors/psensor/inf_cal
+    chown system shell /sys/class/sensors/psensor/hi_cal
+    chown system shell /sys/class/sensors/psensor/low_cal
+    chown system shell /sys/class/sensors/psensor/proxm
+    chown system shell /sys/class/sensors/psensor/load_cal
+    chown system shell /sys/class/sensors/psensor/selection
+    chown system shell /sys/class/sensors/psensor/load_pocket_cal
+    chown system shell /sys/class/sensors/psensor/load_near_cal
+    chown system shell /sys/class/sensors/psensor/load_far_cal
+    chown system shell /sys/class/sensors/psensor/load_inf_cal
+
+    chown system shell /sys/class/sensors/lsensor/switch
+    chown system shell /sys/class/sensors/lsensor/selection
+    chown system shell /sys/class/sensors/lsensor/cal
+    chown system shell /sys/class/sensors/lsensor/adc
+
+on post-fs-data
+
+    # Load calibration file
+    write /sys/class/sensors/psensor/load_cal 1
+
