@@ -39,3 +39,6 @@ drm.service.enabled=true
 
 # Data
 persist.vendor.data.iwlan.enable=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
