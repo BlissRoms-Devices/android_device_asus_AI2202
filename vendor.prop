@@ -42,3 +42,6 @@ persist.vendor.data.iwlan.enable=true
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# Incremental FS
+ro.incremental.enable=yes
