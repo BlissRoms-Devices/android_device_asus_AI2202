@@ -74,3 +74,7 @@ persist.vendor.radio.add_power_save=1
 persist.vendor.radio.rat_on=none
 persist.vendor.radio.custom_ecc=0
 persist.vendor.radio.do_not_use_ril_optr_db=1
+
+# SOC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8475
