@@ -199,6 +199,7 @@ PRODUCT_PACKAGES += \
     init.qti.ufs.rc \
     init.qti.kernel.rc \
     ssgqmigd.rc \
+    ueventd.asus.rc \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \

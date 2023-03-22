@@ -5,6 +5,8 @@
 #
 
 on fs
+    # Fingerprint
+    chown system system /dev/goodix_fp
 
     # Initialize "Proximity/Light sensor"
     chown system shell /sys/class/sensors/psensor/switch
@@ -25,7 +27,8 @@ on fs
     chown system shell /sys/class/sensors/lsensor/adc
 
 on post-fs-data
+    # Fingerprint
+    mkdir /data/vendor/goodix 0777 system system
 
     # Load calibration file
     write /sys/class/sensors/psensor/load_cal 1
-
