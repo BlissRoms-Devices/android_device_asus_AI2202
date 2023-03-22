@@ -28,3 +28,8 @@ ro.vendor.bluetooth.csip_qti=true
 
 # Camera
 ro.camera.enableCamera1MaxZsl=1
+
+# DPM
+persist.vendor.dpm.vndr.idletimer.mode=default
+persist.vendor.dpm.vndr.halservice.enable=1
+persist.vendor.dpm.vndr.feature=11
