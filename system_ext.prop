@@ -11,3 +11,7 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
 vendor.mm.enable.qcom_parser=8388607
+
+# Telephony
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2
