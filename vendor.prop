@@ -81,3 +81,6 @@ persist.vendor.radio.do_not_use_ril_optr_db=1
 # SOC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8475
+
+# USB
+vendor.usb.product_string=Zenfone 9
