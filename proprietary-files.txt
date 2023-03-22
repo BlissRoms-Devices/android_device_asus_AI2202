@@ -963,27 +963,6 @@ vendor/lib64/vendor.qti.gnss-service.so|640f8f6c32a3d07b082d8268cd48168781bbb3b6
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|ef866bab2186db1b2c09477e36fef20945fa671e
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so|0677ebfe099cdaa6c3776d0bd5318044a4220918
 
-# GNSS
-vendor/bin/hw/android.hardware.gnss-aidl-service-qti
-vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
-vendor/etc/seccomp_policy/gnss@2.0-base.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy
-vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
-vendor/etc/batching.conf
-vendor/etc/gnss_antenna_info.conf
-vendor/etc/gps.conf
-vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
-vendor/lib64/libbatching.so
-vendor/lib64/libgeofencing.so
-vendor/lib64/libgnss.so
-vendor/lib64/libgps.utils.so
-vendor/lib64/libloc_core.so
-vendor/lib64/liblocation_api.so
-
 # Hotword Enrollment
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
