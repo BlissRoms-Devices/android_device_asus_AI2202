@@ -1,0 +1,18 @@
+allow system_app proc_pagetypeinfo:file r_file_perms;
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file r_file_perms;
+
+allow system_app vendor_proc_graphics:file { rw_file_perms setattr };
+
+get_prop(system_app, vendor_asus_prop)
+
+get_prop(system_app, vendor_asus_usb_prop)
+allow system_app vendor_asus_usb_prop:property_service set;
+
+get_prop(system_app, vendor_set_camera_prop)
+set_prop(system_app, vendor_set_camera_prop)
+
+get_prop(system_app, vendor_asus_sp_system_prop)
+set_prop(system_app, vendor_asus_sp_system_prop)
+
+get_prop(system_app, vendor_tencent_prop)

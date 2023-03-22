@@ -1,0 +1,28 @@
+allow vendor_init cgroup:file getattr;
+allow vendor_init asus_display_proc_exec:file { read write getattr open };
+
+get_prop(vendor_init, vendor_asus_prop)
+set_prop(vendor_init, vendor_asus_prop)
+
+get_prop(vendor_init, vendor_gx_fpd_prop)
+set_prop(vendor_init, vendor_gx_fpd_prop)
+
+set_prop(vendor_init, vendor_camera_prop)
+
+get_prop(vendor_init, vendor_asus_zram_prop)
+
+allow vendor_init vendor_goodix_data_file:file create_file_perms;
+allow vendor_init vendor_goodix_data_file:dir create_dir_perms;
+
+get_prop(vendor_init, vendor_asus_usb_prop)
+
+get_prop(vendor_init, vendor_asus_storage_prop_2)
+set_prop(vendor_init, vendor_asus_storage_prop_2)
+
+get_prop(vendor_init, vendor_set_camera_prop)
+
+get_prop(vendor_init, vendor_asus_sp_prop)
+set_prop(vendor_init, vendor_asus_sp_prop)
+
+get_prop(vendor_init, vendor_asus_sp_system_prop)
+set_prop(vendor_init, vendor_asus_sp_system_prop)
