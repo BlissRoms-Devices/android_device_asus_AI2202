@@ -62,6 +62,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Shipping API level
 BOARD_API_LEVEL := 31
 BOARD_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
