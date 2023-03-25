@@ -1,2 +1,5 @@
 # Audio
 vendor.audio.hdr.record.enable=true
+
+# ODM
+ro.vendor.qti.va_odm.support=1
