@@ -131,18 +131,45 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.common-V2-ndk_platform.vendor \
-    vendor.qti.hardware.display.config-V2-ndk_platform.vendor \
-    vendor.qti.hardware.display.config-V5-ndk_platform.vendor \
+    android.hardware.graphics.common-V1-ndk_platform.vendor \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    init.qti.display_boot.sh \
+    init.qti.display_boot.rc \
+    libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.vendor \
+    libdisplayconfig.qti.vendor \
+    libfilefinder \
+    libgralloc.qti \
     libion \
-    libtinyxml2
-
--include hardware/qcom-caf/sm8450/display/config/display-board.mk
--include hardware/qcom-caf/sm8450/display/config/display-product.mk
-
-$(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk)
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk)
+    libqdutils \
+    libqdMetaData \
+    libqdMetaData.system \
+    libqdutils \
+    libqservice \
+    libsdmcore \
+    libsdmutils \
+    libtinyxml2 \
+    vendor.display.config@1.11.vendor \
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.config.vendor \
+    vendor.qti.hardware.display.config-V1-ndk.vendor \
+    vendor.qti.hardware.display.config-V2-ndk.vendor \
+    vendor.qti.hardware.display.config-V3-ndk.vendor \
+    vendor.qti.hardware.display.config-V4-ndk.vendor \
+    vendor.qti.hardware.display.config-V5-ndk.vendor \
+    vendor.qti.hardware.display.config-V6-ndk.vendor \
+    vendor.qti.hardware.display.config-V1-ndk_platform.vendor \
+    vendor.qti.hardware.display.config-V2-ndk_platform.vendor \
+    vendor.qti.hardware.display.config-V3-ndk_platform.vendor \
+    vendor.qti.hardware.display.config-V4-ndk_platform.vendor \
+    vendor.qti.hardware.display.config-V5-ndk_platform.vendor \
+    vendor.qti.hardware.display.config-V6-ndk_platform.vendor \
+    vendor.qti.hardware.display.demura-service
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
