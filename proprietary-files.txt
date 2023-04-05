@@ -269,14 +269,6 @@ vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb
 vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp
-vendor/etc/audio/DAVINCI/audio_effects_AI2202.xml
-vendor/etc/audio/DAVINCI/audio_policy_configuration_AI2202.xml
-vendor/etc/audio/DAVINCI/audio_policy_volumes_AI2202.xml
-vendor/etc/audio/DAVINCI/default_volume_tables_AI2202.xml
-vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml
-vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI_EU.xml
-vendor/etc/audio/DAVINCI/resourcemanager_davinci.xml
-vendor/etc/audio/DAVINCI/usecaseKvManager_davinci.xml
 vendor/etc/dirac/interface.json
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
