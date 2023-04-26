@@ -14,6 +14,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit from AI2202 device
 $(call inherit-product, device/asus/AI2202/device.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_DEVICE := AI2202
 PRODUCT_NAME := bliss_AI2202
 PRODUCT_BRAND := asus
