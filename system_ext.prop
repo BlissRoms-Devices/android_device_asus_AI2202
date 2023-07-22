@@ -1,3 +1,6 @@
+# Charging
+ro.charger.enable_suspend=1
+
 # CNE
 persist.vendor.cne.feature=1
 
