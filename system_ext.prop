@@ -22,7 +22,7 @@ persist.dbg.wfc_avail_ovr=1
 media.settings.xml=/vendor/etc/media_profiles_cape.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
-vendor.mm.enable.qcom_parser=8388607
+vendor.mm.enable.qcom_parser=16777215
 
 # Telephony
 ro.telephony.sim_slots.count=2
