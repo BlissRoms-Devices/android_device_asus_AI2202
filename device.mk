@@ -339,6 +339,8 @@ PRODUCT_CHARACTERISTICS := nosdcard
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # QMI
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+
 PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \

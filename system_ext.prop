@@ -11,7 +11,7 @@ debug.sf.enable_hwc_vds=1
 persist.vendor.dpm.feature=11
 
 # GPS
-persist.backup.ntpServer="0.pool.ntp.org"
+persist.backup.ntpServer=0.pool.ntp.org
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -26,6 +26,9 @@ vendor.mm.enable.qcom_parser=16777215
 
 # Netmgr
 persist.vendor.data.mode=concurrent
+
+# QC Value Addons
+ro.vendor.qti.va_aosp.support=1
 
 # RmNet Data Settings
 persist.data.df.agg.dl_pkt=10
