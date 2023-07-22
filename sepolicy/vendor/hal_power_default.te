@@ -1,1 +1,2 @@
 allow hal_power_default vendor_proc_evt:file { append getattr open };
+allow hal_power_default vendor_proc_graphics:file w_file_perms;
