@@ -24,6 +24,10 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
 vendor.mm.enable.qcom_parser=16777215
 
+# RmNet Data Settings
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+
 # Telephony
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
