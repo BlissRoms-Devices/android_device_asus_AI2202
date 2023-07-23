@@ -212,6 +212,9 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Security
+VENDOR_SECURITY_PATCH := 2023-04-05
+
 # VNDK
 NEED_AIDL_NDK_PLATFORM_BACKEND := true
 
