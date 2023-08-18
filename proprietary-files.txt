@@ -926,7 +926,7 @@ vendor/lib64/libpwiriscalibrate.so
 vendor/lib64/libpwirisfeature.so
 vendor/lib64/libpwirishalwrapper.so
 vendor/lib64/libpwirispq.so
-vendor/lib64/libpwirisservice.so
+vendor/lib64/libpwirisservice.so|7dd3fe1a92820bcd6e468924153709a8ad6bbab3
 vendor/lib64/libpwirissoft.so
 vendor/lib64/libpwsoftirisPCS.so
 vendor/lib64/libsnapdragoncolor-pxlw.so
