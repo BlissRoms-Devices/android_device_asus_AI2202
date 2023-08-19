@@ -139,6 +139,7 @@ TARGET_KERNEL_CONFIG := \
     gki_defconfig \
     vendor/waipio_GKI.config \
     vendor/AI2202_perf.config
+TARGET_FORCE_PREBUILT_KERNEL := true
 
 # Kernel Modules
 BOARD_BUILD_VENDOR_RAMDISK_IMAGE := true
