@@ -370,6 +370,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    ApertureOverlayAI2202 \
     CarrierConfigResZenfone9 \
     FrameworksResTarget_Vendor \
     FrameworksResCommon_Sys \
