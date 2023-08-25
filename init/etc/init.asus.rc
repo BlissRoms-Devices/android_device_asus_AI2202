@@ -36,5 +36,9 @@ on post-fs-data
     # Load calibration file
     write /sys/class/sensors/psensor/load_cal 1
 
+    # Asus HDR and HBM Mode
+    chmod 0666 /sys/class/asus_fod/hdr_mode
+    chmod 0666 /sys/class/asus_fod/hbm_mode
+
 on property:sys.boot_completed=1
     write /sys/class/asuslib/boot_completed 1
