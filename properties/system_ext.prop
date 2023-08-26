@@ -7,6 +7,16 @@ persist.vendor.cne.feature=1
 # Display
 debug.sf.enable_hwc_vds=1
 
+# Dirac Sound
+ro.vendor.dirac.acs.rotation=true
+ro.vendor.dirac.acs.ignore_updates_in_call=true
+ro.vendor.dirac.acs.no_usermsg=true
+ro.vendor.dirac.gef.ins.appt=0x4
+ro.vendor.dirac.gef.int.appt=0x1,0x8,0x10
+ro.vendor.dirac.gef.ext.appt=0x1,0x4,0x8,0x10
+ro.vendor.dirac.gef.ext.did=0x4,0x8,0x80,0x4000,0x4000000
+ro.vendor.dirac.gef.exs.did=0x4,0x8,0x80,0x4000,0x4000000
+
 # DPM
 persist.vendor.dpm.feature=11
 
