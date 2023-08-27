@@ -1,0 +1,2 @@
+# Display PixelWorks
+hal_client_domain(vendor_iris_app, hal_display_iris);
