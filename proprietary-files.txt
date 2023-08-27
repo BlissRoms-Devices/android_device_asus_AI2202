@@ -891,6 +891,7 @@ vendor/lib64/vendor.display.color@1.7.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # Display (Pixelworks)
+-priv-app/AsusVisualMaster/AsusVisualMaster.apk
 vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
 vendor/bin/irisConfig
