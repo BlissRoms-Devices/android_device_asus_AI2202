@@ -23,14 +23,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- PixelWorks service -->
-    <hal format="hidl">
-        <name>vendor.pixelworks.hardware.display</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IIris</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </manifest>
