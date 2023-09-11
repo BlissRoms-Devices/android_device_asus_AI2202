@@ -836,7 +836,6 @@ vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
@@ -849,8 +848,6 @@ vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
 vendor/lib64/libqdcm-mode-parser.so
 vendor/lib64/libqdutils.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
@@ -873,7 +870,6 @@ vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libqrtrclient.so
 vendor/lib64/libqseed3.so
 vendor/lib64/librcmask.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-disp-vndapis.so
@@ -895,57 +891,6 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.color@1.6.so
 vendor/lib64/vendor.display.color@1.7.so
 vendor/lib64/vendor.display.postproc@1.0.so
-
-# Display (Pixelworks)
--priv-app/AsusVisualMaster/AsusVisualMaster.apk
-vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
-vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
-vendor/bin/irisConfig
-vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc
-vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/Release.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm.lst
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm1.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm10.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm11.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm12.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm13.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm14.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm15.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm16.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm17.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm18.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm2.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm3.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm4.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm5.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm6.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm7.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm8.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/inParm9.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/mcfCheck.txt
-vendor/etc/inparm/irissoft/inparm_ai2202_mp/mcfCheck_low.txt
-vendor/etc/iris_configs.xml
-vendor/etc/irissoft_ASUS_ams592YP01_cmd_mode_dsc_fhd_plus_panel.dat
-vendor/etc/irissoft_ASUS_ams592YP01_cmd_mode_dsc_fhd_plus_panel.xml
-vendor/etc/irissoft_ASUS_ams678_er2_cmd_mode_dsc_fhd_plus_panel.dat
-vendor/etc/irissoft_ASUS_ams678_er2_cmd_mode_dsc_fhd_plus_panel.xml
-vendor/etc/irissoft_ai2202.fw
-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml
-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
-vendor/lib64/libpwirisIoctlWrapper.so
-vendor/lib64/libpwirisPCS.so
-vendor/lib64/libpwiriscalibrate.so
-vendor/lib64/libpwirisfeature.so
-vendor/lib64/libpwirishalwrapper.so
-vendor/lib64/libpwirispq.so
-vendor/lib64/libpwirisservice.so|7dd3fe1a92820bcd6e468924153709a8ad6bbab3
-vendor/lib64/libpwirissoft.so
-vendor/lib64/libpwsoftirisPCS.so
-vendor/lib64/libsnapdragoncolor-pxlw.so
-vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
-vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
-vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
 
 # EVA
 vendor/etc/eva/facedetection/model3.dat
