@@ -317,8 +317,8 @@ vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio (Dirac)
--priv-app/AudioWizardView/AudioWizardView.apk
 etc/permissions/com.dirac.acs.xml
+-priv-app/AudioWizardView/AudioWizardView.apk
 -priv-app/DiracAudioControlService/DiracAudioControlService.apk
 vendor/etc/dirac/interface.json
 vendor/lib/rfsa/adsp/dirac_resource.dar
@@ -329,6 +329,7 @@ vendor/lib64/soundfx/libdiraceffect.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/btaudio_offload_if.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/com.dsi.ant@1.0-impl.so
@@ -338,7 +339,6 @@ vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
 vendor/lib/libbt-hidlclient.so
@@ -346,6 +346,7 @@ vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/btaudio_offload_if.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
@@ -355,7 +356,6 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
@@ -891,6 +891,10 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.color@1.6.so
 vendor/lib64/vendor.display.color@1.7.so
 vendor/lib64/vendor.display.postproc@1.0.so
+
+# Display (PixelWorks)
+vendor/etc/irissoft_ai2202.fw
+vendor/lib64/libsnapdragoncolor-pxlw.so
 
 # EVA
 vendor/etc/eva/facedetection/model3.dat
