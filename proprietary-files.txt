@@ -473,7 +473,6 @@ vendor/lib64/libcvpcpuRev_skel.so
 vendor/bin/dualcam_default_cali.bin
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/camera/camera_cdn.csv
-vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/vidhance_calibration
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/firmware/CAMERA_ICP.b00

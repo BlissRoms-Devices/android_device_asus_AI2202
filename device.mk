@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Camera Configs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt
+
 # Data
 PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
